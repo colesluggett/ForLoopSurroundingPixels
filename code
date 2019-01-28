@@ -1,0 +1,28 @@
+/*
+Uses for loops to find surrounding pixels in pictures or points in graph
+
+Owned by: Cole Sluggett
+*/
+
+//For 9 pixels
+
+for (int a = -1; a < 2; a++)
+  for (int b = -1; b < 2; b++) {
+    if (a != 0 && b != 0) {
+      //surrounding pixels
+    }else{
+      //center pixel
+    }
+}
+
+//for 25 pixels
+for (int a = -2; a < 3; a++)
+  for (int b = -2; b < 3; b++) {
+    if (a == 2 || b == 2 || a == -2 || b == -2) {
+      //outer pixels
+    } else if (a != 0 && b != 0) {
+      //surrounding middle pixels
+    } else {
+      //center pixel
+  }
+}
